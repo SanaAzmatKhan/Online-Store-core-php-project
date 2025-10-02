@@ -1,7 +1,3 @@
 <?php
 session_start();
-$con=mysqli_connect("localhost","root","","look_online_store");
-
-
-
-?>
+$con = mysqli_connect("localhost", "root", "", "look_online_store");

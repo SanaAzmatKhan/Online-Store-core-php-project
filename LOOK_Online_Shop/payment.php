@@ -1,97 +1,97 @@
 <?php include_once("navbar.php") ?>
 
 
-    <!--Payment-->
-          
-  <div class="new_arrivals_agile_w3ls_info"> 
-		<div class="container">
-            <div class="row">
-		    <h3 class="wthree_text_info">Payment <span>Methods</span></h3>		
-				<div id="horizontalTab">
-						<ul class="resp-tabs-list">
-							<li>Cash On Delivery (COD)</li>
-							<li> Credit / Debit</li>
-							<li> Net Banking</li>
-							<li> Paypal Account</li>
-						</ul>
-					<div class="resp-tabs-container">
-					<!--/tab_one-->
-						<div class="tab1">
-                                    <br />
-                        <div class="col-md-6 tab-grid">
-                                    <img class="pp-img" style="height:35%;width:500px" src="Images/cod.png" alt="Cash On Delivery" title="COD">  
-                                        </div>
+<!--Payment-->
 
-                             <div class="col-md-6">
-                                <div class="grid_3 grid_5 agile">
-				                    <h3>COD</h3>
-				                        <div class="well">
-					                        COD - Now Availabe
-                                        </div>
-                                            <input class="btn btn-primary submit" type="submit" value="Proceed with COD">
-                                </div>  
-                            </div>
-                                
+<div class="new_arrivals_agile_w3ls_info">
+    <div class="container">
+        <div class="row">
+            <h3 class="wthree_text_info">Payment <span>Methods</span></h3>
+            <div id="horizontalTab">
+                <ul class="resp-tabs-list">
+                    <li>Cash On Delivery (COD)</li>
+                    <li> Credit / Debit</li>
+                    <li> Net Banking</li>
+                    <li> Paypal Account</li>
+                </ul>
+                <div class="resp-tabs-container">
+                    <!--/tab_one-->
+                    <div class="tab1">
+                        <br />
+                        <div class="col-md-6 tab-grid">
+                            <img class="pp-img" style="height:35%;width:500px" src="Images/cod.png" alt="Cash On Delivery" title="COD">
                         </div>
-						<!--//tab_one-->
-                        <!--/tab_two-->
-                        
-						<div class="tab2">
+
+                        <div class="col-md-6">
+                            <div class="grid_3 grid_5 agile">
+                                <h3>COD</h3>
+                                <div class="well">
+                                    COD - Now Availabe
+                                </div>
+                                <input class="btn btn-primary submit" type="submit" value="Proceed with COD">
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--//tab_one-->
+                    <!--/tab_two-->
+
+                    <div class="tab2">
 
                         <div class="col-md-6">
                             <br />
                             <div class="pay_info">
-                                    <form action="#" method="post" class="creditly-card-form shopf-sear-headinfo_form">
-                                        <section class="creditly-wrapper payf_wrapper">
-                                            <div class="credit-card-wrapper">
-                                                <div class="first-row form-group">
-                                                    <div class="controls">
-                                                        <label class="control-label">Name on Card</label>
-                                                        <input class="billing-address-name form-control" type="text" name="name" placeholder="John Smith">
-                                                    </div>
-                                                    <div class="paymntf_card_number_grids">
-                                                        <div class="fpay_card_number_grid_left">
-                                                            <div class="controls">
-                                                                <label class="control-label">Card Number</label>
-                                                                <input class="number credit-card-number form-control" type="text" name="number" inputmode="numeric" autocomplete="cc-number"
-                                                                    autocompletetype="cc-number" x-autocompletetype="cc-number"
-                                                                    placeholder="&#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149;">
-                                                            </div>
-                                                        </div>
-                                                        <div class="fpay_card_number_grid_right">
-                                                            <div class="controls">
-                                                                <label class="control-label">CVV</label>
-                                                                <input class="security-code form-control" Â· inputmode="numeric" type="text" name="security-code" placeholder="&#149;&#149;&#149;">
-                                                            </div>
-                                                        </div>
-                                                        <div class="clear"> </div>
-                                                    </div>
-                                                    <div class="controls">
-                                                        <label class="control-label">Expiration Date</label>
-                                                        <input class="expiration-month-and-year form-control" type="text" name="expiration-month-and-year" placeholder="MM / YY">
-                                                    </div>
+                                <form action="#" method="post" class="creditly-card-form shopf-sear-headinfo_form">
+                                    <section class="creditly-wrapper payf_wrapper">
+                                        <div class="credit-card-wrapper">
+                                            <div class="first-row form-group">
+                                                <div class="controls">
+                                                    <label class="control-label">Name on Card</label>
+                                                    <input class="billing-address-name form-control" type="text" name="name" placeholder="John Smith">
                                                 </div>
-                                                <input class="btn btn-primary submit" type="submit" value="Make Payment">
+                                                <div class="paymntf_card_number_grids">
+                                                    <div class="fpay_card_number_grid_left">
+                                                        <div class="controls">
+                                                            <label class="control-label">Card Number</label>
+                                                            <input class="number credit-card-number form-control" type="text" name="number" inputmode="numeric" autocomplete="cc-number"
+                                                                autocompletetype="cc-number" x-autocompletetype="cc-number"
+                                                                placeholder="&#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="fpay_card_number_grid_right">
+                                                        <div class="controls">
+                                                            <label class="control-label">CVV</label>
+                                                            <input class="security-code form-control" Â· inputmode="numeric" type="text" name="security-code" placeholder="&#149;&#149;&#149;">
+                                                        </div>
+                                                    </div>
+                                                    <div class="clear"> </div>
+                                                </div>
+                                                <div class="controls">
+                                                    <label class="control-label">Expiration Date</label>
+                                                    <input class="expiration-month-and-year form-control" type="text" name="expiration-month-and-year" placeholder="MM / YY">
+                                                </div>
                                             </div>
-                                        </section>
-                                    </form>
+                                            <input class="btn btn-primary submit" type="submit" value="Make Payment">
+                                        </div>
+                                    </section>
+                                </form>
                             </div>
                         </div>
 
                         <div class="col-md-6 tab-grid">
-                                    <img class="pp-img" style="height:35%;width:500px" src="Images/card.png" alt="Cash On Delivery" title="COD">  
-                                        </div>
-                                    </div>   
-                     <!--//tab_two-->
-                     <!--/tab_three-->
-						<div class="tab3">
+                            <img class="pp-img" style="height:35%;width:500px" src="Images/card.png" alt="Cash On Delivery" title="COD">
+                        </div>
+                    </div>
+                    <!--//tab_two-->
+                    <!--/tab_three-->
+                    <div class="tab3">
                         <div class="col-md-6">
-                        <div class="pay_info">
-                                    <div class="vertical_post">
-                                        <form action="#" method="post">
+                            <div class="pay_info">
+                                <div class="vertical_post">
+                                    <form action="#" method="post">
                                         <div class="grid_3 grid_5 agile">
-				                    <h3>Select From Popular Banks</h3>
-                                 
+                                            <h3>Select From Popular Banks</h3>
+
                                             <div class="swit-radio">
                                                 <div class="check_box_one">
                                                     <div class="radio_one">
@@ -121,12 +121,12 @@
                                                             <i></i>Soneri Bank</label>
                                                     </div>
                                                 </div>
-                                               
+
                                                 <div class="clearfix"></div>
                                             </div>
-                                           
-				                    <h3>Select other bank</h3>
-                                
+
+                                            <h3>Select other bank</h3>
+
                                             <div class="section_room_pay">
                                                 <select class="year">
                                                     <option value="">=== Other Banks ===</option>
@@ -174,80 +174,81 @@
                                                     <option value="VJB-NA">Vijaya Bank NetBanking</option>
                                                 </select>
                                             </div>
-<br/>
+                                            <br />
                                             <a href="#" class="btn btn-primary">Pay Now</a>
-                                           <h3 style="color:red;"><b>Currently Not Available</b></h3>
-                                             
-                                        </form>
-                                    </div>
-                                </div>
-                                </div>
-</div>
-                        <div class="col-md-6 tab-grid">
-                            <br/>
-                                            <img class="pp-img" style="height:35%;width:500px" src="Images/net.jpg" alt="Image Alternative text" title="Image Title">
-                                        </div>
-							
-                        </div>
-                        <!--//tab_three-->
-                        <!--/tab_four-->
-						<div class="tab4">
-							
-                                        <div class="col-md-6 tab-grid">
-                                            <img class="pp-img" style="height:25%;width:500px" src="Images/paypal.png" alt="Image Alternative text" title="Image Title">
-                                            <a href="#" class="btn btn-primary">Checkout via Paypal</a>
-                                            <p> <h3 style="color:red;"><b>Currently Not Available</b></h3>
-                                            </p> <br />
-                                           
-                                        </div>
-                                        <div class="col-md-6">
-                                        <br />
-                                            <form action="#" method="post" class="creditly-card-form shopf-sear-headinfo_form">
-                                                <section class="creditly-wrapper payf_wrapper">
-                                                    <div class="credit-card-wrapper">
-                                                        <div class="first-row form-group">
-                                                            <div class="controls">
-                                                                <label class="control-label">Card Holder </label>
-                                                                <input class="billing-address-name form-control" type="text" name="name" placeholder="John Smith">
-                                                            </div>
-                                                            <div class="paymntf_card_number_grids">
-                                                                <div class="fpay_card_number_grid_left">
-                                                                    <div class="controls">
-                                                                        <label class="control-label">Card Number</label>
-                                                                        <input class="number credit-card-number form-control" type="text" name="number" inputmode="numeric" autocomplete="cc-number"
-                                                                            autocompletetype="cc-number" x-autocompletetype="cc-number"
-                                                                            placeholder="&#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149;">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="fpay_card_number_grid_right">
-                                                                    <div class="controls">
-                                                                        <label class="control-label">CVV</label>
-                                                                        <input class="security-code form-control" Â· inputmode="numeric" type="text" name="security-code" placeholder="&#149;&#149;&#149;">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="clear"> </div>
-                                                            </div>
-                                                            <div class="controls">
-                                                                <label class="control-label">Valid Thru</label>
-                                                                <input class="expiration-month-and-year form-control" type="text" name="expiration-month-and-year" placeholder="MM / YY">
-                                                            </div>
-                                                        </div>
-                                                        <input class="btn btn-primary submit" type="submit" value="Proceed Payment">
-                                                    </div>
-                                                </section>
-                                            </form>
-                                        </div>
-                                    
-							
-                        </div>
-                        <!--//tab_four-->
-					</div>
-				</div>	
-			</div>
-		</div>                                           
-</div>                               
-    <!-- //payment -->
+                                            <h3 style="color:red;"><b>Currently Not Available</b></h3>
 
-    
-   
-    <?php include_once("footer.php") ?>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 tab-grid">
+                        <br />
+                        <img class="pp-img" style="height:35%;width:500px" src="Images/net.jpg" alt="Image Alternative text" title="Image Title">
+                    </div>
+
+                </div>
+                <!--//tab_three-->
+                <!--/tab_four-->
+                <div class="tab4">
+
+                    <div class="col-md-6 tab-grid">
+                        <img class="pp-img" style="height:25%;width:500px" src="Images/paypal.png" alt="Image Alternative text" title="Image Title">
+                        <a href="#" class="btn btn-primary">Checkout via Paypal</a>
+                        <p>
+                        <h3 style="color:red;"><b>Currently Not Available</b></h3>
+                        </p> <br />
+
+                    </div>
+                    <div class="col-md-6">
+                        <br />
+                        <form action="#" method="post" class="creditly-card-form shopf-sear-headinfo_form">
+                            <section class="creditly-wrapper payf_wrapper">
+                                <div class="credit-card-wrapper">
+                                    <div class="first-row form-group">
+                                        <div class="controls">
+                                            <label class="control-label">Card Holder </label>
+                                            <input class="billing-address-name form-control" type="text" name="name" placeholder="John Smith">
+                                        </div>
+                                        <div class="paymntf_card_number_grids">
+                                            <div class="fpay_card_number_grid_left">
+                                                <div class="controls">
+                                                    <label class="control-label">Card Number</label>
+                                                    <input class="number credit-card-number form-control" type="text" name="number" inputmode="numeric" autocomplete="cc-number"
+                                                        autocompletetype="cc-number" x-autocompletetype="cc-number"
+                                                        placeholder="&#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149;">
+                                                </div>
+                                            </div>
+                                            <div class="fpay_card_number_grid_right">
+                                                <div class="controls">
+                                                    <label class="control-label">CVV</label>
+                                                    <input class="security-code form-control" Â· inputmode="numeric" type="text" name="security-code" placeholder="&#149;&#149;&#149;">
+                                                </div>
+                                            </div>
+                                            <div class="clear"> </div>
+                                        </div>
+                                        <div class="controls">
+                                            <label class="control-label">Valid Thru</label>
+                                            <input class="expiration-month-and-year form-control" type="text" name="expiration-month-and-year" placeholder="MM / YY">
+                                        </div>
+                                    </div>
+                                    <input class="btn btn-primary submit" type="submit" value="Proceed Payment">
+                                </div>
+                            </section>
+                        </form>
+                    </div>
+
+
+                </div>
+                <!--//tab_four-->
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- //payment -->
+
+
+
+<?php include_once("footer.php") ?>
